@@ -1,0 +1,56 @@
+main {
+  display: flex;
+  height: 100vh;
+}
+
+main div {
+  width: 50%;
+}
+
+.signup__container-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup__container-left form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.btn-cancel {
+  margin-top: 8px;
+}
+
+.btn-register {
+  margin-top: 72px;
+}
+
+.signup__container-left form h2 {
+  margin: 0 0 32px 0;
+  text-align: center;
+}
+
+.login-link {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  margin-top: 96px;
+}
+
+.login-link span {
+  margin-right: 10px;
+}
+
+
+@media (max-width: 850px) {
+  .signup__container-left {
+    width: 100%;
+  }
+
+  .signup__container-right {
+    width: 0;
+  }
+}
